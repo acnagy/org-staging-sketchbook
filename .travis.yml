@@ -1,8 +1,4 @@
-sudo: required
-
-dist: precise
-
-group: stable
+sudo: false
 
 install: true
 
