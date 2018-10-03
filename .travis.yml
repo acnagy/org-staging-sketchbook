@@ -1,16 +1,3 @@
-version: '= 0'
-conditions: v1
-jobs:
-  include:
-  - name: 🐱
-    sudo: false
-    script: echo 🎉
-  - name: dup
-    script: echo bar
-    sudo: required
-  - name: dup
-    script: echo baz
-    sudo: false
-    if: ENV(FOO) = foo
-    env:
-    - FOO=foo
+language: generic
+script: true
+
